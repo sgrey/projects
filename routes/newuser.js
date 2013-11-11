@@ -15,6 +15,6 @@ exports.newuser = function(req, res){
         res.send ("Wrong password! Rewrite it!");
     }
 
-    console.log (name + password);
+    console.log (name + userpassword);
 
 };
