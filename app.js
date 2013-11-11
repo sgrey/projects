@@ -5,7 +5,7 @@
 
 var express = require('express');
 var routes = require('./routes');
-var user = require('./routes/signin');
+var signin = require('./routes/signin');
 var http = require('http');
 var path = require('path');
 
