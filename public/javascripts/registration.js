@@ -9,7 +9,7 @@ $(function() {
         var userpassword = $("#userpassword").val();
         $.ajax({
             type: "POST",
-            url: "registrate",
+            url: "newuser",
             data: { name: name, userpass: userpass, userpassword: userpassword }
         })
             .done(function( msg ) {
